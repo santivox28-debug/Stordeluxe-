@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Store Deluxe | Moda y Estilo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background-color: #f7f7f7; color: #222; }
+    header { background-color: #000; color: #fff; padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { font-size: 1.8rem; letter-spacing: 2px; }
+    nav a { color: #fff; text-decoration: none; margin: 0 1rem; font-weight: 500; transition: color 0.3s; }
+    nav a:hover { color: #c9a227; }
+    .hero { background: url('https://images.unsplash.com/photo-1521335629791-ce4aec67dd47') center/cover no-repeat; height: 75vh; display: flex; justify-content: center; align-items: center; color: white; text-align: center; }
+    .hero h2 { font-size: 3rem; text-shadow: 2px 2px 8px #000; }
+    section { padding: 4rem 2rem; max-width: 1100px; margin: auto; }
+    h2 { text-align: center; margin-bottom: 2rem; color: #000; }
+    .productos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+    .producto { background: #fff; border-radius: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s; }
+    .producto:hover { transform: scale(1.03); }
+    .producto img { width: 100%; height: 300px; object-fit: cover; }
+    .producto h3 { padding: 1rem; font-size: 1.2rem; color: #111; }
+    .producto p { padding: 0 1rem 1rem; color: #555; }
+    .contacto { text-align: center; background: #000; color: white; padding: 3rem 1rem; }
+    .contacto a { color: #c9a227; text-decoration: none; font-weight: 600; }
+    footer { background-color: #111; color: #bbb; text-align: center; padding: 2rem 1rem; font-size: 0.9rem; line-height: 1.6; }
+    footer a { color: #c9a227; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Store Deluxe</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h2>Elegancia y Estilo en Cada Prenda</h2>
+  </section>
+
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="Zapatillas Store Deluxe">
+        <h3>Zapatillas Deluxe</h3>
+        <p>Comodidad y diseño moderno para todos los días.</p>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1521334884684-d80222895322" alt="Campera Store Deluxe">
+        <h3>Camperas de Estilo</h3>
+        <p>Perfectas para destacar con un look urbano y elegante.</p>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1530845641042-48792f7a0f7d" alt="Remera Store Deluxe">
+        <h3>Remeras Premium</h3>
+        <p>Materiales de alta calidad con diseño único.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <h2>Contacto</h2>
+    <p>Comunicate con nosotros por WhatsApp o Instagram:</p>
+    <p>📞 <a href="https://wa.me/541130202960" target="_blank">+54 11 3020-2960</a></p>
+    <p>📸 <a href="https://www.instagram.com/stor_deluxe" target="_blank">@stor_deluxe</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Store Deluxe. Todos los derechos reservados.<br>
+    Creado en julio de 2025 por <strong>Santiago Duarte</strong>.<br>
+    Consulta nuestras <a href="#">Políticas y Privacidad</a>.</p>
+  </footer>
+
+</body>
+</html>
